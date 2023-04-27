@@ -28,8 +28,6 @@ header{
 }
 
 .card__octubre-img{
-    background-image: url(./statics/honolulu.jpg);
-    background-size: cover;
     height: 700px;
 }
 
@@ -87,6 +85,9 @@ footer{
     }
     .active{
         color: black !important;
+    }
+    .card__octubre-img{
+        height: 300px;
     }
     footer{
         height: 400px;

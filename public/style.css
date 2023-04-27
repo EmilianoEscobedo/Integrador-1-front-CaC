@@ -86,6 +86,9 @@ footer{
     .active{
         color: black !important;
     }
+    .nav__link{
+        color: #ffff !important;
+    }
     .card__octubre-img{
         height: 300px;
     }

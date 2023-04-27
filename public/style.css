@@ -1,0 +1,94 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    background-color: #353a40;
+    
+}
+
+.header__container{
+   height: 80px !important;
+}
+
+.nav-link{
+    color: #ffff !important;
+}
+
+.banner__container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./statics/hawaii.jpg");
+    background-size: cover;
+    height: 900px;
+}
+
+.banner__text{
+    text-align: end;
+
+    margin-top: 450px;
+}
+
+.card__octubre-img{
+    background-image: url(./statics/honolulu.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.card__octubre-container{
+    max-height: 1300px;
+}
+
+.card__octubre-text{
+    background-color: #353a40;
+    color: #ffff;
+}
+
+.form__button-send{
+    background-color: #96c93e;
+    color:  #ffff;
+    width: 100%;
+    height: 40px;
+    border-radius: 5%;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul{
+    list-style: none;
+    width: 90%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #1e4f6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+
+    
+}
+
+@media (max-width: 576px) {
+    .navbar-brand{
+        width: 220px !important;
+        margin-right: 0px;
+    }
+    .navbar-brand img{
+        width: 80px !important;
+    }
+    .active{
+        color: black !important;
+    }
+    footer{
+        height: 400px;
+    }
+  }

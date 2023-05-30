@@ -1,5 +1,8 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
 }
 
 header{
@@ -23,7 +26,6 @@ header{
 
 .banner__text{
     text-align: end;
-
     margin-top: 450px;
 }
 
@@ -38,6 +40,9 @@ header{
 .card__octubre-text{
     background-color: #353a40;
     color: #ffff;
+}
+.card__octubre-carrousel{
+    margin-right: -10px !important;
 }
 
 .form__button-send{
@@ -71,10 +76,30 @@ footer{
     justify-content: center;
     align-items: center;
     height: 110px;
-
+    margin-top: auto;
+    width: 100%;
     
 }
-
+.btn-borrar, .btn-resumen{
+    background-color: #97c93e;
+    text-align: center;
+    color: #ffff;
+    width: 30%;
+}
+.container__form{
+    margin-bottom: 40px;
+}
+.container__totalPrice{
+    border-radius: 2%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #cce5ff;
+    color: #4f4ba1;
+}
+.displayNone{
+    display: none;
+}
 @media (max-width: 576px) {
     .navbar-brand{
         width: 220px !important;
@@ -94,5 +119,8 @@ footer{
     }
     footer{
         height: 400px;
+    }
+    .container__form{
+        margin-bottom: 100px;
     }
   }

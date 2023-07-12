@@ -1,10 +1,11 @@
-# Proyecto integrador I - modulo Front End - Java Full Stack
+# Java Web - JSP
 ### Codo a Codo 2023 - Gobierno de la ciudad
 
-#### Enunciado
-Deberán replicar la siguiente página principal con lo visto en clase hasta el momento, se recomienda usar bootstrap<br>
-- Las imágenes a utilizar se encuentran en un comprimido, así como la imagen final.
-- La entrega será pegando el link de donde está alojado su trabajo, puede ser cualquiera de las siguientes alternativas ftp, servidor gratuito, github o algúna herramienta que permita alojar el trabajo.
+#### About
+Proyecto integrador de curso Codo a Codo, brindado por el gobierno de la ciudad de Buenos Aires.<br><br>
+Consta de: 
+  - Proyecto front-end desarrollado con HTML5 | CSS3 | Bootstrap5 | JS Vanilla
+  - Proyecto donde se integra el front-end con un back-end sencillo, utilizando Java17 | Java Web | JSP | PostgreSQL 
 <br>
 <br>
 <div align="center">

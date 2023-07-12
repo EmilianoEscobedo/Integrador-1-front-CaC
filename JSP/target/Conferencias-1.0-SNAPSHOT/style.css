@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+header{
+    background-color: #353a40;
+}
+.register-login__container{
+    background-color: #222222;
+}
+.register-login-form__input{
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    color: white;
+    background-color: #222222;
+    margin-top: 10%;
+}
+.register-login-form__input:focus{
+    background-color: #222222;
+    color: white;
+    border: none !important;
+    border-bottom: 1px solid white;
+}
+.register-login-logo{
+    width: 260px;
+}
+.register-login-button{
+    color: #ffd200;
+    margin-top: 10%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.register-login-button:hover{
+    color: #ffd200;
+    border-bottom: 2px solid #ffd200;
+    border-radius: 0;
+    transition: 0.2s;
+}
+.register-login__form{
+    margin-top: 20%;
+}
+.header__container{
+   height: 80px !important;
+}
+.separator {
+    border-left: 1px solid white;
+    height: 50px;
+    margin: 10px 0 10px 60px;
+}
+.nav-link{
+    color: #ffff !important;
+}
+
+.banner__container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./statics/hawaii.jpg");
+    background-size: cover;
+    height: 900px;
+}
+
+.banner__text{
+    text-align: end;
+    margin-top: 450px;
+}
+
+.card__octubre-img{
+    height: 700px;
+}
+
+.card__octubre-container{
+    max-height: 1300px;
+}
+
+.card__octubre-text{
+    background-color: #353a40;
+    color: #ffff;
+}
+.card__octubre-carrousel{
+    margin-right: -10px !important;
+}
+
+.form__button-send{
+    background-color: #96c93e;
+    color:  #ffff;
+    width: 100%;
+    height: 40px;
+    border-radius: 5%;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul{
+    list-style: none;
+    width: 90%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #1e4f6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    margin-top: auto;
+    width: 100%;
+
+}
+.btn-borrar, .btn-resumen{
+    background-color: #97c93e;
+    text-align: center;
+    color: #ffff;
+    width: 30%;
+}
+.container__form{
+    margin-bottom: 40px;
+}
+.container__totalPrice{
+    border-radius: 2%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #cce5ff;
+    color: #4f4ba1;
+}
+.displayNone{
+    display: none;
+}
+@media (max-width: 576px) {
+    .navbar-brand{
+        width: 220px !important;
+        margin-right: 0px;
+    }
+    .navbar-brand img{
+        width: 80px !important;
+    }
+    .active{
+        color: black !important;
+    }
+    .nav__link{
+        color: #ffff !important;
+    }
+    .card__octubre-img{
+        height: 300px;
+    }
+    footer{
+        height: 400px;
+    }
+    .container__form{
+        margin-bottom: 100px;
+    }
+  }

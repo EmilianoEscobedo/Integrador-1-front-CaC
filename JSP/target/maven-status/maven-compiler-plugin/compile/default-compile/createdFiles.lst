@@ -1,0 +1,4 @@
+com/cac/conferencias/controllers/LogoutController.class
+com/cac/conferencias/controllers/RegisterController.class
+com/cac/conferencias/controllers/LoginController.class
+com/cac/conferencias/util/DBUtil.class
